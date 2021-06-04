@@ -28,7 +28,10 @@ I am a multifunctional yet User-friendly group management bot!
 
 Activate spam protection in your PM by this command : 
 /antispam on 
+Add me!
+(http://t.me/Gremory_rias_xgroupbotstartgroup=true).
 
+"""
 
 
 
