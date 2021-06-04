@@ -23,27 +23,12 @@ from haruka.modules.connection import connected
 PM_START = """Hello {}, my name is {}!
 
 I am a multifunctional yet User-friendly group management bot!
-
-
-
 Activate spam protection in your PM by this command : 
 /antispam on 
 Add me!
 (http://t.me/Gremory_rias_xgroupbotstartgroup=true).
-
 """
-
-
-
-
-
-
-
-
 Click /help or Help button below to find out more about how to use me to my full potential.
-
-
-
 
 
 IMPORTED = {}
