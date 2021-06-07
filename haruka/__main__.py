@@ -27,6 +27,7 @@ I am a multifunctional yet User-friendly group management bot and this rais will
 Click /help or Help button below to find out more about how to use me to my full potential.
 
 Add me to a group by clicking [here](http://t.me/Gremory_rias_xgroupbot?startgroup=true).
+Contact [Owner](t.me/Cataclysmic)
 """
 
 
