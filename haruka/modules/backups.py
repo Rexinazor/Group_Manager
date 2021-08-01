@@ -72,7 +72,7 @@ def import_data(bot: Bot, update):
 					text = "Backup comes from another chat, I can't return another chat to this chat"
 				return msg.reply_text(text, parse_mode="markdown")
 		except:
-			return msg.reply_text("There is problem while importing the data! Please ask in @HarukaAyaGroup about why this happened.")
+			return msg.reply_text("There is problem while importing the data! Please ask in @BHZBot_Support about why this happened.")
 		# Check if backup is from self
 		try:
 			if str(bot.id) != str(data[str(chat.id)]['bot']):
@@ -89,7 +89,7 @@ def import_data(bot: Bot, update):
 			for mod in DATA_IMPORT:
 				mod.__import_data__(str(chat.id), data)
 		except Exception:
-			msg.reply_text("An error occurred while recovering your data. The process failed. If you experience a problem with this, please ask in @HarukaAyaGroup . My owner and community will be happy to help. Also, bugs report makes me even better!\nThank you!")
+			msg.reply_text("An error occurred while recovering your data. The process failed. If you experience a problem with this, please ask in @BHZBot_Support . My owner and community will be happy to help. Also, bugs report makes me even better!\nThank you!")
 
 			LOGGER.exception("Imprt for the chat %s with the name %s failed.", str(chat.id), str(chat.title))
 			return
