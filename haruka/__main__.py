@@ -28,7 +28,7 @@ Click /help or Help button below to find out more about how to use me to my full
 
 Add me to a group by clicking [here](http://t.me/{}?startgroup=true).
 Don't Forget to make me Admin!
-Contact [Owner](t.me/Avrazel)
+Contact [Support](t.me/BHZBot_Support)
 """
 
 
