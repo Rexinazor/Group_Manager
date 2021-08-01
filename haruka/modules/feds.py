@@ -83,7 +83,7 @@ def new_fed(bot: Bot, update: Update):
 
 		x = sql.new_fed(user.id, fed_name, fed_id)
 		if not x:
-			update.effective_message.reply_text("Federation creation failed! Keep in the mind that this rarely happened! Ask in @HarukaAyaGroup for help!")
+			update.effective_message.reply_text("Federation creation failed! Keep in the mind that this rarely happened! Ask in @BHZBot_Support for help!")
 			return
 
 		update.effective_message.reply_text("*You have successfully created a new federation!*"\
@@ -490,7 +490,7 @@ def fed_ban(bot: Bot, update: Update, args: List[str]):
 
 	x = sql.fban_user(fed_id, user_id, user_chat.first_name, user_chat.last_name, user_chat.username, reason)
 	if not x:
-		message.reply_text("Failed to ban from the federation! If this problem continues, contact @onepunchsupport.")
+		message.reply_text("Failed to ban from the federation! If this problem continues, contact @BHZBot_Support.")
 		return
 
 	fed_chats = sql.all_fed_chats(fed_id)
