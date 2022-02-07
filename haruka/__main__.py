@@ -20,15 +20,15 @@ from haruka.modules.helper_funcs.misc import paginate_modules
 from haruka.modules.translations.strings import tld, tld_help 
 from haruka.modules.connection import connected
 
-PM_START = """Hello {}, my name is {}!
+PM_START = """Hey {}, my name is {}!
 
-I am a multifunctional yet User-friendly group management bot and I will take care of your group!✌
+It's DireDemise Offical Group Management Bot. I've really something dark for best management!
 
 Click /help or Help button below to find out more about how to use me to my full potential.
 
 Add me to a group by clicking [here](http://t.me/{}?startgroup=true).
 Don't Forget to make me Admin!
-Contact [Support](t.me/BHZBot_Support)
+
 """
 
 
@@ -180,7 +180,7 @@ def control_panel(bot, update):
 
         LOGGER.info(query.data)
     else:
-        M_match = "ThaNos is the best bot" #LMAO, don't uncomment
+        M_match = "DireDemise is the best bot" #LMAO, don't uncomment
 
     if M_match:
         text = "*Control panel* 🛠"
