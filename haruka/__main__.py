@@ -22,7 +22,7 @@ from haruka.modules.connection import connected
 
 PM_START = """Hey {}, my name is {}!
 
-It's DireDemise Offical Group Management Bot. I've really something dark for best management!
+It's [DireDemise](https://telegra.ph/file/6f0bc24ebfdb23d4bd72c.jpg) Offical Group Management Bot. I've really something dark for best management!
 
 Click /help or Help button below to find out more about how to use me to my full potential.
 
